@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "0FC91BA0-7613-486A-BBEA-4B46159A6847"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BC2EE048-CCAF-4CF8-852D-5922DC1D27CD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Final Work/Networking/MovieService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "fetchMoviesList(page:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BC2EE048-CCAF-4CF8-852D-5922DC1D27CD - 5d159b9f1c0fd6ef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Final_Work.MovieService.fetchMoviesList(page: Swift.Int, completion: (Swift.Result&lt;Swift.Array&lt;Final_Work.MovieDetail&gt;, Final_Work.MovieServiceError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Final Work"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lucasrobaert/Desktop/pos/ios/Final%20Work/Final%20Work/Networking/MovieService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "791">
+               </Location>
+               <Location
+                  uuid = "BC2EE048-CCAF-4CF8-852D-5922DC1D27CD - 5d159b9f1c0fd6ef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Final_Work.MovieService.fetchMoviesList(page: Swift.Int, completion: (Swift.Result&lt;Swift.Array&lt;Final_Work.MovieDetail&gt;, Final_Work.MovieServiceError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Final Work"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lucasrobaert/Desktop/pos/ios/Final%20Work/Final%20Work/Networking/MovieService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "1336">
+               </Location>
+               <Location
+                  uuid = "BC2EE048-CCAF-4CF8-852D-5922DC1D27CD - 5d159b9f1c0fd6ef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Final_Work.MovieService.fetchMoviesList(page: Swift.Int, completion: (Swift.Result&lt;Swift.Array&lt;Final_Work.MovieDetail&gt;, Final_Work.MovieServiceError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Final Work"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lucasrobaert/Desktop/pos/ios/Final%20Work/Final%20Work/Networking/MovieService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "1075">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AE4E7710-930C-4711-982E-30DC4AF3649A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Final Work/Networking/MovieService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "fetchMoviesList(page:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "AE4E7710-930C-4711-982E-30DC4AF3649A - 5d159b9f1c0fd5f7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Final_Work.MovieService.fetchMoviesList(page: Swift.Int, completion: (Swift.Result&lt;Swift.Array&lt;Final_Work.MovieDetail&gt;, Final_Work.MovieServiceError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Final Work"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lucasrobaert/Desktop/pos/ios/Final%20Work/Final%20Work/Networking/MovieService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "389">
+               </Location>
+               <Location
+                  uuid = "AE4E7710-930C-4711-982E-30DC4AF3649A - 5d159b9f1c0fd412"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Final_Work.MovieService.fetchMoviesList(page: Swift.Int, completion: (Swift.Result&lt;Swift.Array&lt;Final_Work.MovieDetail&gt;, Final_Work.MovieServiceError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Final Work"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lucasrobaert/Desktop/pos/ios/Final%20Work/Final%20Work/Networking/MovieService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "198">
+               </Location>
+               <Location
+                  uuid = "AE4E7710-930C-4711-982E-30DC4AF3649A - 5d159b9f1c0fd412"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Final_Work.MovieService.fetchMoviesList(page: Swift.Int, completion: (Swift.Result&lt;Swift.Array&lt;Final_Work.MovieDetail&gt;, Final_Work.MovieServiceError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Final Work"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lucasrobaert/Desktop/pos/ios/Final%20Work/Final%20Work/Networking/MovieService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "268">
+               </Location>
+               <Location
+                  uuid = "AE4E7710-930C-4711-982E-30DC4AF3649A - 5d159b9f1c0fd412"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Final_Work.MovieService.fetchMoviesList(page: Swift.Int, completion: (Swift.Result&lt;Swift.Array&lt;Final_Work.MovieDetail&gt;, Final_Work.MovieServiceError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Final Work"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lucasrobaert/Desktop/pos/ios/Final%20Work/Final%20Work/Networking/MovieService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "217">
+               </Location>
+               <Location
+                  uuid = "AE4E7710-930C-4711-982E-30DC4AF3649A - 5d159b9f1c0fd412"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Final_Work.MovieService.fetchMoviesList(page: Swift.Int, completion: (Swift.Result&lt;Swift.Array&lt;Final_Work.MovieDetail&gt;, Final_Work.MovieServiceError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Final Work"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lucasrobaert/Desktop/pos/ios/Final%20Work/Final%20Work/Networking/MovieService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "287">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
