@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		44578D6F2A9D61FC0056638F /* ImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44578D6E2A9D61FC0056638F /* ImageManager.swift */; };
 		44C133612A7F1D9A000A2B88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C133602A7F1D9A000A2B88 /* AppDelegate.swift */; };
 		44C133632A7F1D9A000A2B88 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C133622A7F1D9A000A2B88 /* SceneDelegate.swift */; };
 		44C133652A7F1D9A000A2B88 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C133642A7F1D9A000A2B88 /* ViewController.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		44578D6E2A9D61FC0056638F /* ImageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageManager.swift; sourceTree = "<group>"; };
 		44C1335D2A7F1D9A000A2B88 /* Final Work.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Final Work.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		44C133602A7F1D9A000A2B88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		44C133622A7F1D9A000A2B88 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				44C133692A7F1D9C000A2B88 /* Assets.xcassets */,
 				44C1336B2A7F1D9C000A2B88 /* LaunchScreen.storyboard */,
 				44C1336E2A7F1D9C000A2B88 /* Info.plist */,
+				44578D6E2A9D61FC0056638F /* ImageManager.swift */,
 			);
 			path = "Final Work";
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 				44C1337C2A7F2E78000A2B88 /* MovieService.swift in Sources */,
 				44C133652A7F1D9A000A2B88 /* ViewController.swift in Sources */,
 				44C133812A7F36AD000A2B88 /* MovieTableViewCell.swift in Sources */,
+				44578D6F2A9D61FC0056638F /* ImageManager.swift in Sources */,
 				44C1337A2A7F2B98000A2B88 /* MovieResponse.swift in Sources */,
 				44C133612A7F1D9A000A2B88 /* AppDelegate.swift in Sources */,
 				44C133632A7F1D9A000A2B88 /* SceneDelegate.swift in Sources */,

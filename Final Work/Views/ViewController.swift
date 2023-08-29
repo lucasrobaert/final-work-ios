@@ -19,6 +19,7 @@ class ViewController: UIViewController {
     }()
     
     var movies: [MovieDetail] = []
+    var filteredMovies: [MovieDetail] = []
     let service: MovieService
     
     init(){
@@ -41,6 +42,7 @@ class ViewController: UIViewController {
             case let .success(movies):
                 print(movies)
                 self?.movies = movies
+                self?.filteredMovies = movies
                 DispatchQueue.main.async {
                     self?.tableView.reloadData()
                 }
@@ -48,6 +50,7 @@ class ViewController: UIViewController {
             case let .failure(error):
                 print(error)
                 self?.movies = []
+                self?.filteredMovies = []
                 DispatchQueue.main.async {
                     self?.tableView.reloadData()
                 }
@@ -71,6 +74,8 @@ extension ViewController {
             tableView.trailingAnchor.constraint(equalTo: self.view.trailingAnchor),
             tableView.bottomAnchor.constraint(equalTo: self.view.bottomAnchor),
         ])
+        
+        configureSearchController()
     }
     
     func configureTableView(){
@@ -78,6 +83,14 @@ extension ViewController {
         tableView.delegate = self
         
         tableView.register(MovieTableViewCell.self, forCellReuseIdentifier: MovieTableViewCell.reuseIndentifier)
+    }
+    
+    func configureSearchController(){
+        let searchController = UISearchController()
+        searchController.searchResultsUpdater = self
+        searchController.searchBar.placeholder = "Filter by name"
+        searchController.obscuresBackgroundDuringPresentation = false
+        navigationItem.searchController = searchController
     }
 }
 
@@ -91,7 +104,7 @@ extension ViewController: UITableViewDataSource {
             return UITableViewCell()
         }
         
-        let movie = movies[indexPath.row]
+        let movie = filteredMovies[indexPath.row]
         
         cell.configure(with: movie)
         
@@ -103,6 +116,7 @@ extension ViewController: UITableViewDataSource {
         tableView.deselectRow(at: indexPath, animated: true)
         
         let vc = DetailViewController()
+        vc.movie = filteredMovies[indexPath.row]
         
         self.navigationController?.pushViewController(vc, animated: true)
     }
@@ -113,7 +127,26 @@ extension ViewController: UITableViewDataSource {
 
 extension ViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return movies.count
+        return filteredMovies.count
     }
 }
 
+
+// MARK: -
+
+extension ViewController: UISearchResultsUpdating {
+    
+    func updateSearchResults(for searchController: UISearchController) {
+        guard let searchText  = searchController.searchBar.text, !searchText.isEmpty else {
+            self.filteredMovies = self.movies
+            self.tableView.reloadData()
+            return
+        }
+        
+        self.filteredMovies = self.movies.filter({movie in
+            return movie.title.lowercased().contains(searchText.lowercased())
+        })
+        
+        self.tableView.reloadData()
+    }
+}

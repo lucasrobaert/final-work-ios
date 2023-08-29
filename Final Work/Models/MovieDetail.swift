@@ -43,7 +43,7 @@ struct MovieDetail: Codable {
         self.id = try container.decode(Int.self, forKey: .id)
         self.originalLanguage = try container.decode(String.self, forKey: .originalLanguage)
         self.originalTitle = try container.decode(String.self, forKey: .originalTitle)
-        self.overview = try container.decode(String.self, forKey: .backdropPath)
+        self.overview = try container.decode(String.self, forKey: .overview)
         self.popularity = try container.decode(Double.self, forKey: .popularity)
         self.posterPath = try container.decode(String.self, forKey: .posterPath)
         self.title = try container.decode(String.self, forKey: .title)

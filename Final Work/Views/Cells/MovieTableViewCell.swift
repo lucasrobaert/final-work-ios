@@ -25,7 +25,17 @@ class MovieTableViewCell: UITableViewCell {
     
     func configure(with movie: MovieDetail){
         title.text = movie.title
-        image.load(url: movie.posterPath)
+        
+        
+        let urlString = "https://image.tmdb.org/t/p/w500\(movie.posterPath)"
+        
+        guard let url = URL(string: urlString) else {
+            return
+        }
+        
+        ImageManager.shared.loadImage(from:url) { image in
+            self.image.image = image
+        }
     }
 
 }
